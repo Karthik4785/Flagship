@@ -444,16 +444,16 @@ h1, h2, h3, h4, h5, h6 {
 #hero h1 {
   color: #fff;
   font-family: "Raleway", sans-serif;
-  font-size: 56px;
+  font-size: 60px;
   font-weight: 600;
   text-transform: uppercase;
 }
 #hero h1 span {
-  color: #f82249;
+  color: #00ffaa;
 }
 @media (max-width: 991px) {
   #hero h1 {
-    font-size: 34px;
+    font-size: 75px;
   }
 }
 #hero p {
@@ -463,13 +463,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 991px) {
   #hero p {
-    font-size: 16px;
+    font-size: 25px;
   }
 }
 #hero .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#f82249 50%, rgba(101, 111, 150, 0.15) 52%);
+  background: radial-gradient(#33cc99 50%, rgba(101, 111, 150, 0.15) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -512,7 +512,7 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(198, 16, 0, 0);
 }
 #hero .play-btn:hover::after {
-  border-left: 15px solid #f82249;
+  border-left: 15px solid #00ffaa;
   transform: scale(20);
 }
 #hero .play-btn:hover::before {
@@ -534,7 +534,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .about-btn {
   font-family: "Raleway", sans-serif;
-  font-weight: 500;
+  font-weight: 550;
   font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
@@ -546,11 +546,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #f82249;
+  border: 2px solid #00ffaa;
 }
 #hero .about-btn:hover {
-  background: #f82249;
-  color: #fff;
+  background: #00ffaa;
+  color: #1f2d5d;
 }
 
 @-webkit-keyframes pulsate-btn {
